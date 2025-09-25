@@ -41,10 +41,17 @@ const About = () => {
             </div>
 
             <div className="support-section">
-              <p>If you find this content helpful, please consider supporting the project:</p>
-              <button className="btn btn-primary support-btn">
-                <span>☕</span> Buy Me A Coffee
-              </button>
+             <p>If you find this content helpful, please consider supporting the project:</p>
+
+<a
+  href="https://buymeacoffee.com/omie9284n"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-primary support-btn inline-flex items-center"
+>
+  <span>☕</span> Buy Me A Coffee
+</a>
+
             </div>
           </div>
         </div>

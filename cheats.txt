@@ -1,0 +1,11 @@
+1. compute
+2. Storage
+3. Database
+4. Analytics
+5. container
+6. Developer Tools
+7. Machine Learning
+8. networking
+9. migration and transfer
+10. media services
+11. Business Application

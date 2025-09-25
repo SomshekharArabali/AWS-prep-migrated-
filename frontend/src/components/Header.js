@@ -13,12 +13,13 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="header-content">
-          <Link to="/" className="logo">
-            <div className="logo-icon">
-              <img src="/aws-logo.png" alt="AWS" className="aws-logo" />
-            </div>
-            <span className="logo-text">AWS Prep</span>
-          </Link>
+         <Link to="/" className="logo">
+  <div className="logo-icon">
+    <span className="aws-logo" role="img" aria-label="AWS">☁</span>
+  </div>
+  <span className="logo-text">AWS Prep</span>
+</Link>
+
 
           <nav className="nav">
             <SignedIn>

@@ -15,7 +15,6 @@
   justify-content: space-between;
   height: 80px;
 }
-
 .logo {
   display: flex;
   align-items: center;
@@ -29,25 +28,27 @@
 .logo-icon {
   width: 40px;
   height: 40px;
-  background: var(--primary-orange);
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-size: 1.2rem;
-  /* Updated styling for AWS logo image */
   padding: 4px;
-  background: linear-gradient(135deg, #ff6b35, #f7931e);
 }
 
-/* Added AWS logo specific styling */
 .aws-logo {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
-  filter: brightness(0) invert(1); /* Makes the logo white */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;  /* scales the emoji */
+  line-height: 1;   /* keeps it vertically centered */
+  
+  color: white;     /* tries to force white, works for some emoji fonts */
 }
+
 
 .nav {
   display: flex;
